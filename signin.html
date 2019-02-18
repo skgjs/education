@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/signin.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <title>登录</title>
+</head>
+<body>
+<!--登录页-->
+<section>
+    <div class="entrybgc">
+        <div class="entrybgc-bj">
+            <img class="imgbj" src="images/entrybgc.png" alt="">
+            <div class="entrybgc-position">
+                <a href="index.html" class="entrybgc-img">
+                    <img src="images/close.png" alt="">
+                </a>
+                <div class="entry-left">
+                    <p class="title">开始你的</p>
+                    <p class="title">—————学习之旅吧！</p>
+                </div>
+                <div class="formbgc">
+                    <div class="formtop">
+                        <div class="logo-img">
+                            <img src="images/logo.png" alt="">
+                        </div>
+                        <p class="formtop-title">用户登录</p>
+                    </div>
+                    <form id="loginForm" action="" class="form-box" onsubmit="return checks()">
+                        <div class="input">
+                            <div class="input-top">
+                                <input type="text" id="pnames" name="pnames" placeholder="用户名">
+                                <span></span>
+                            </div>
+                            <div class="input-top">
+                                <input type="password" id="passwords" name="passwords" placeholder="密码">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="identity" id="identitys">
+                            <span class="item fl act">学生</span>
+                            <span class="item fl">教师</span>
+                            <span class="item fl">管理员</span>
+                            <div style="clear: both"></div>
+                        </div>
+                        <div class="entry">
+                            <input type="submit" class="item fl" value="立即登陆">
+                            <a href="register.html" class="item-a fl">注册</a>
+                            <div style="clear: both"></div>
+                        </div>
+                        <div class="forget">
+                            <div class="left fl">
+                                <label for="agree">
+                                    <img class="checkbox fl" alt="选中" src="images/selecta.png" id="checkimg"
+                                         onclick="checkclick();">
+                                </label>
+                                <input type="checkbox" name="chkRememberPass" style="display:none" id="agree"
+                                       checked="checked">
+                                <span class="fl">记住密码</span>
+                                <div style="clear: both"></div>
+                            </div>
+                            <div class="right fr">
+                                <a href="password.html" class="title">忘记密码？</a>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+</section>
+<script>
+    // 登录页
+    $(document).ready(function(){
+        $("#identitys .item").click(function () {
+            $('#identitys .item').removeClass('act')
+        })
+        $("#identitys .item").click(function () {
+            $(this).addClass('act')
+        })
+    });
+
+    // 正则验证
+    // 登录页
+    function checks() {
+        var submitFlg = true;
+
+        //验证姓名
+        var regpname = {regstr: /^[\u4e00-\u9fa5\w]{4,1000}$/, tip: '输入内容不能为空，最低输入4个字'};
+        var pname = document.getElementById("pnames").value;
+        var spans = document.getElementById("pnames").parentNode.getElementsByTagName("span");
+        spans[0].innerHTML = ""
+        if (!regpname.regstr.test(pname)) {
+            spans[0].innerHTML = "<font color='red'>" + regpname.tip + "<font>";
+            submitFlg = false;
+        }
+        //验证密码
+        var regpassword={regstr:/^[\w@#*]{6,18}$/,tip:'请输入6-18位的英文、数字、下划线、@、#、*'};
+        var password= document.getElementById("passwords").value;
+        var spans = document.getElementById("passwords").parentNode.getElementsByTagName("span");
+        spans[0].innerHTML="";
+        if(!regpassword.regstr.test(password)){
+            spans[0].innerHTML="<font color='red'>"+regpassword.tip+"<font>";
+            submitFlg = false;
+        }
+
+        return submitFlg;
+    }
+
+    // 复选框
+    function checkclick(){
+        var checkimg = document.getElementById("checkimg");
+        if($("#agree").is(':checked') ){
+            $("#agree").attr("checked","unchecked");
+            checkimg.src="images/selecta.png";
+            checkimg.alt="未选";
+        } else{
+            $("#agree").attr("checked","checked");
+            checkimg.src="images/select.png";
+            checkimg.alt="选中";
+        }
+    }
+</script>
+</body>
+</html>

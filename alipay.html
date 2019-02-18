@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/alipay.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <title>支付宝支付</title>
+</head>
+<body>
+<header>
+<div class="header">
+        <div class="top">
+            <div class="widtha">
+                    <div class="fr">你好，欢迎使用支付宝付款!</div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="widtha">
+                <div class="fl bottom-img">
+                    <img src="images/vipzf.png" alt="">
+                </div>
+                <div class="fl bottom-title">我的收银台</div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="widtha">
+        <div class="content-box">
+            <div class="position">
+                <div class="left fl">
+                    <p class="left-top">正在使用即时到账交易<span>[?]</span></p>
+                    <!--<p class="tankuang">-->
+                        <!--付款后资金直接进入对方账户-->
+                        <!--若发生退款需联系收款方协商，如付款给陌生人，请谨慎操作。-->
+                    <!--</p>-->
+                    <p class="title">开通艺之都包年499元VIP</p>
+                </div>
+                <div class="right fr">
+                    <p class="top"><span class="right-title">499.00</span>元</p>
+                    <p class="right-title-a fr" id="diand">订单详情</p>
+                    <div style="clear: both"></div>
+                </div>
+                <div style="clear: both"></div>
+                <div class="left-bottom" id="bottoma">
+                    <p class="item">收款方：深圳市艺之都网络有限公司</p>
+                    <p class="item">收款方：深圳市艺之都网络有限公司</p>
+                    <p class="item">订单号：616piczfb15427622094269-182481</p>
+                    <p class="item">商品名称：开通图精灵包月VIP</p>
+                    <p class="item">商品描述：开通图精灵包月VIP特权，全站精品素材高速下载</p>
+                    <p class="item">交易金额：<span>499.00</span></p>
+                </div>
+            </div>
+            <div class="payment">
+                <div class="left-payment fl">
+                    <div class="left-title">
+                        <p class="title-fk">扫一扫付款（元）</p>
+                        <p class="title-fka">499.00</p>
+                    </div>
+                    <div class="wximg-box">
+                        <div class="left-wximg">
+                            <img src="images/wxewm.png" alt="">
+                        </div>
+                        <div class="left-bottom">
+                            <div class="left-img">
+                                <img src="images/guang.png" alt="">
+                            </div>
+                            <div class="title-left">
+                                <p class="item-p">打开手机支付宝</p>
+                                <p class="item-p">扫一扫继续付款</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="title-bottom">首次使用请下载手机支付宝</p>
+                </div>
+                <div class="right-payment fl">
+                    <div class="right-img">
+                        <img src="images/zif.png" alt="">
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="widtha">
+        <div class="footer-img">
+            <img class="" src="images/dibu.png" alt="">
+        </div>
+    </div>
+</footer>
+<script>
+    $(document).ready(function(){
+        $('#diand').click(function () {
+           $('#bottoma .item').toggle();
+        })
+    })
+</script>
+</body>
+</html>

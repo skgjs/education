@@ -1,0 +1,348 @@
+.content-box{
+    border-top: 8px solid #f9f8f8;
+    padding-bottom: 30px;
+}
+.computer .title{
+    padding: 20px 0;
+    font-size: 18px;
+    color: #333;
+}
+.computer .title .sy{
+    display: inline-block;
+}
+.computer .title .qbkc{
+    display: inline-block;
+}
+.computer .list-box{
+    padding: 40px 30px 40px 30px;
+    background: #f5f5f5;
+}
+.computer .list-box .list{
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    flex-wrap:wrap;
+}
+.computer .list-box .list .items{
+    display: flex;
+    align-items: center;
+    margin-right: 57px;
+    margin-bottom: 40px;
+    width: 118px;
+}
+.computer .list-box .list .items span{
+    font-size: 18px;
+    color: #333;
+    margin-left: 5px;
+}
+.computer .bottom-nav{
+    display: flex;
+    padding-top: 20px;
+}
+.computer .bottom-nav .curriculum{
+    font-size: 18px;
+    color: #333;
+    margin-right: 50px;
+}
+.list-content{
+    padding: 20px 0;
+    margin-top: 25px;
+}
+.list-content .right-content .browse .browse-left .browse-left-b{
+    display: none;
+}
+.list-content .right-content .browse .browse-right .browse-left-b{
+    display: none;
+}
+.list-content:hover{
+    background: #f5f5f5;
+}
+.list-content:hover .right-content .browse .browse-left span{
+    color: #11bdfe;
+}
+.list-content:hover .right-content .browse .browse-right span{
+    color: #11bdfe;
+}
+.list-content:hover .right-content .browse .browse-left .browse-left-a{
+    display: none;
+}
+.list-content:hover .right-content .browse .browse-left .browse-left-b{
+    display: block;
+}
+.list-content:hover .right-content .browse .browse-right .browse-left-a{
+    display: none;
+}
+.list-content:hover .right-content .browse .browse-right .browse-left-b{
+    display: block;
+}
+.list-content .content-img{
+    width: 24%;
+    margin-left: 10px;
+}
+.list-content .content-img img{
+    width: 100%;
+}
+.list-content .right-content{
+    width: 72%;
+    padding-right: 10px;
+}
+.list-content .right-content .title-box .title{
+    font-size: 24px;
+    color: #333;
+    margin-right: 25px;
+}
+.list-content .right-content .title-box .titlea{
+    font-size: 24px;
+    color: #43bc60;
+}
+.list-content .right-content .title-box .vip{
+    color: #0072bc;
+}
+.list-content .right-content .content{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+}
+.list-content .right-content .browse{
+    display: flex;
+    margin-top: 40px;
+}
+.list-content .right-content .browse .browse-left{
+    display: flex;
+    margin-right: 20px;
+}
+.list-content .right-content .browse .browse-left img{
+    width: 31px;
+    height: 29px;
+}
+.list-content .right-content .browse .browse-left span{
+    font-size: 18px;
+    color: #e8e8e8;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.list-content .right-content .browse .browse-right{
+    display: flex;
+}
+.list-content .right-content .browse .browse-right img{
+    width: 30px;
+    height: 29px;
+}
+.list-content .right-content .browse .browse-right span{
+    font-size: 18px;
+    color: #e8e8e8;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+@media (max-width: 1680px) {
+    .content-box{
+        padding-bottom: 26px;
+    }
+    .computer .title{
+        padding: 18px 0;
+        font-size: 16px;
+    }
+
+    .computer .list-box{
+        padding: 35px 26px 35px 26px;
+    }
+    .computer .list-box .list .items{
+        margin-right: 50px;
+        margin-bottom: 35px;
+    }
+    .computer .list-box .list .items span{
+        font-size: 16px;
+    }
+    .computer .bottom-nav{
+        padding-top: 18px;
+    }
+    .computer .bottom-nav .curriculum{
+        font-size: 16px;
+        margin-right: 44px;
+    }
+    .list-content{
+        padding: 18px 0;
+        margin-top: 22px;
+    }
+    .list-content .right-content .title-box .title{
+        font-size: 21px;
+        margin-right: 22px;
+    }
+    .list-content .right-content .title-box .titlea{
+        font-size: 21px;
+    }
+    .list-content .right-content .content{
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 13px;
+    }
+    .list-content .right-content .browse{
+        margin-top: 35px;
+    }
+    .list-content .right-content .browse .browse-left{
+        margin-right: 18px;
+    }
+    .list-content .right-content .browse .browse-left img{
+        width: 28px;
+        height: 23px;
+    }
+    .list-content .right-content .browse .browse-left span{
+        font-size: 16px;
+        margin-top: 6px;
+        margin-left: 4px;
+    }
+    .list-content .right-content .browse .browse-right img{
+        width: 26px;
+        height: 26px;
+    }
+    .list-content .right-content .browse .browse-right span{
+        font-size: 16px;
+        margin-top: 6px;
+        margin-left: 4px;
+    }
+}
+@media (max-width: 1440px) {
+    .content-box{
+        padding-bottom: 23px;
+    }
+    .computer .title{
+        padding: 15px 0;
+        font-size: 15px;
+    }
+    .computer .list-box{
+        padding: 30px 23px 30px 23px;
+    }
+    .computer .list-box .list .items{
+        margin-right: 43px;
+        margin-bottom: 30px;
+    }
+    .computer .list-box .list .items span{
+        font-size: 15px;
+    }
+    .computer .bottom-nav{
+        padding-top: 15px;
+    }
+    .computer .bottom-nav .curriculum{
+        font-size: 15px;
+        margin-right: 38px;
+    }
+    .list-content{
+        padding: 15px 0;
+        margin-top: 18px;
+    }
+    .list-content .right-content .title-box .title{
+        font-size: 18px;
+        margin-right: 19px;
+    }
+    .list-content .right-content .title-box .titlea{
+        font-size: 18px;
+    }
+    .list-content .right-content .content{
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 11px;
+    }
+    .list-content .right-content .browse{
+        margin-top: 30px;
+    }
+    .list-content .right-content .browse .browse-left{
+        margin-right: 15px;
+    }
+    .list-content .right-content .browse .browse-left img{
+        width: 25px;
+        height: 21px;
+    }
+    .list-content .right-content .browse .browse-left span{
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    .list-content .right-content .browse .browse-right img{
+        width: 23px;
+        height: 23px;
+    }
+    .list-content .right-content .browse .browse-right span{
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+}
+@media (max-width: 1366px) {
+    .content-box{
+        border-top: 8px solid #f9f8f8;
+        padding-bottom: 30px;
+    }
+    .computer .title{
+        padding: 14px 0;
+        font-size: 18px;
+        color: #333;
+    }
+    .computer .list-box{
+        padding: 40px 30px 40px 30px;
+        background: #f5f5f5;
+    }
+    .computer .list-box .list{
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .computer .list-box .list .items{
+        margin-right: 40px;
+        margin-bottom: 28px;
+    }
+    .computer .list-box .list .items span{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .computer .bottom-nav{
+        padding-top: 14px;
+    }
+    .computer .bottom-nav .curriculum{
+        font-size: 14px;
+        margin-right: 35px;
+    }
+
+    .list-content{
+        padding: 14px 0;
+        margin-top: 18px;
+    }
+    .list-content .right-content .title-box .title{
+        font-size: 17px;
+        margin-right: 18px;
+    }
+    .list-content .right-content .title-box .titlea{
+        font-size: 17px;
+    }
+    .list-content .right-content .content{
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 11px;
+    }
+    .list-content .right-content .browse{
+        margin-top: 28px;
+    }
+    .list-content .right-content .browse .browse-left{
+        margin-right: 14px;
+    }
+    .list-content .right-content .browse .browse-left img{
+        width: 25px;
+        height: 21px;
+    }
+    .list-content .right-content .browse .browse-left span{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    .list-content .right-content .browse .browse-right img{
+        width: 21px;
+        height: 21px;
+    }
+    .list-content .right-content .browse .browse-right span{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+}

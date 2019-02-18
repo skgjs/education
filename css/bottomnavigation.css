@@ -1,0 +1,245 @@
+.content-box{
+    border-top: 8px solid #f9f8f8;
+    padding-bottom: 30px;
+}
+.list{
+    padding: 68px 0;
+}
+.list .left-nav{
+    width: 16.4%;
+    border: 1px solid #bfbfbf;
+    cursor: pointer;
+}
+.list .left-nav .item{
+    width: 100%;
+    text-align: center;
+    height: 66px;
+    line-height: 66px;
+    font-size: 18px;
+    color: #0072bc;
+    border-bottom: 1px solid #bfbfbf;
+}
+.list .left-nav .item:last-child{
+    border-bottom:none;
+}
+.list .left-nav .act{
+    background: #0072bc;
+    color: #fff;
+}
+.right-content .item{
+    display: none;
+}
+.right-content .item.act{
+    display: block;
+}
+.list .right-content{
+    width: 79.7%;
+    min-height: 612px;
+    border: 1px solid #bfbfbf;
+    font-size: 18px;
+    color: #333;
+    padding: 40px 30px 44px 30px;
+    box-sizing: border-box;
+}
+.list .right-content .statement-dt{
+    margin-bottom: 40px;
+}
+.list .right-content .statement-dd{
+    margin-bottom: 40px;
+}
+.report{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+.contact .left-content{
+    width: 40%;
+}
+.contact .left-content .title-a{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 48px;
+    font-weight: bold;
+}
+.contact .left-content .title-p{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+.contact .right-dt{
+    width: 55%;
+}
+.contact .right-dt img{
+    width: 100%;
+}
+.aftersale .aftersale-dt{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+.aftersale .aftersale-dd{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+.problem .problem-dt{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+.problem .problem-dd{
+    font-size: 18px;
+    color: #0072bc;
+    line-height: 30px;
+}
+#container{
+    width:500px;
+    height:400px;
+}
+@media (max-width: 1680px) {
+    .list{
+        padding: 60px 0;
+    }
+    .list .left-nav .item{
+        height: 58px;
+        line-height: 58px;
+        font-size: 16px;
+    }
+    .list .right-content{
+        min-height: 536px;
+        font-size: 16px;
+        padding: 35px 26px 39px 26px;
+    }
+    .list .right-content .statement-dt{
+        margin-bottom: 35px;
+    }
+    .list .right-content .statement-dd{
+        margin-bottom: 35px;
+    }
+    .report{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .contact .left-content .title-a{
+        font-size: 16px;
+        margin-bottom: 42px;
+    }
+    .contact .left-content .title-p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .aftersale .aftersale-dt{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .aftersale .aftersale-dd{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .problem .problem-dt{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .problem .problem-dd{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media (max-width: 1440px) {
+    .list{
+        padding: 51px 0;
+    }
+    .list .left-nav .item{
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+    }
+    .list .right-content{
+        min-height: 459px;
+        font-size: 14px;
+        padding: 30px 23px 33px 23px;
+    }
+    .list .right-content .statement-dt{
+        margin-bottom: 30px;
+    }
+    .list .right-content .statement-dd{
+        margin-bottom: 30px;
+    }
+    .report{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .contact .left-content .title-a{
+        font-size: 15px;
+        margin-bottom: 36px;
+    }
+    .contact .left-content .title-p{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .aftersale .aftersale-dt{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .aftersale .aftersale-dd{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .problem .problem-dt{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .problem .problem-dd{
+        font-size: 15px;
+        line-height: 23px;
+    }
+}
+@media (max-width: 1366px) {
+    .list{
+        padding: 48px 0;
+    }
+    .list .left-nav .item{
+        height: 47px;
+        line-height: 47px;
+        font-size: 14px;
+    }
+    .list .right-content{
+        min-height: 434px;
+        font-size: 14px;
+        padding: 28px 21px 31px 21px;
+    }
+    .list .right-content .statement-dt{
+        margin-bottom: 28px;
+    }
+    .list .right-content .statement-dd{
+        margin-bottom: 28px;
+    }
+    .report{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .contact .left-content .title-a{
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .contact .left-content .title-p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .aftersale .aftersale-dt{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .aftersale .aftersale-dd{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .problem .problem-dt{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .problem .problem-dd{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

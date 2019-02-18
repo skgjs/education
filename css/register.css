@@ -1,0 +1,713 @@
+/*注册样式*/
+.register-box .register .register-left .bottom .acts{
+    background: #0072bc!important;
+    color: #fff;
+}
+.box-img{
+    cursor: pointer;
+}
+.registerbj{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerbj .imgbj{
+   width: 100%;
+   height: 100%;
+}
+.register-box{
+    width: 70%;
+    height: 80%;
+    background: rgba(255,255,255,0.8);
+    position: absolute;
+    /*padding: 43px 50px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-box .usertitle{
+    font-size: 36px;
+    color: #0072bc;
+}
+.registerbj .box-img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+}
+.registerbj .box-img img{
+    width: 100%;
+}
+.register-box .box-img img{
+    width: 100%;
+}
+.register-box .usertitle{
+    font-size: 31px;
+}
+.register-box .register{
+    margin-top: 29px;
+}
+.register-box .register .register-left{
+    margin-right: 61px;
+}
+.register-box .register .register-left .item{
+    width: 485px;
+    height: 56px;
+    display: block;
+    border-radius: 5px;
+    border: 2px solid #0072bc;
+    margin-top: 33px;
+}
+.register-box .register .register-left .item input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: none;
+    font-size: 18px;
+}
+.register-box .register .register-left .item-a{
+    margin-top: 23px;
+    color: #000;
+    position: relative;
+}
+
+.register-box .register .register-left .item-a .tongyi{
+    position: absolute;
+    font-size: 16px;
+    color: red;
+    bottom: -25px;
+}
+.register-box .register .register-left .item-a .select{
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.register-box .register .register-left .item-a input{
+    margin-top: 7px;
+    margin-right: 8px;
+}
+.register-box .register .register-left .bottom .itema{
+    display: inline-block;
+    width: 149px;
+    height: 61px;
+    line-height: 61px;
+    text-align: center;
+    margin-right: 179px;
+    background: #c9c3c3;
+    border-radius: 8px;
+    margin-top: 54px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.register-box .register .register-left .bottom .itema:nth-child(2){
+    margin-right: 0;
+}
+.register-box .register .register-right{
+    margin-top: 25px;
+}
+.register-box .register .register-right .xingbie{
+    display: flex;
+    align-items: center;
+}
+.register-box .register .register-right .xingbie{
+    margin-bottom: 25px;
+}
+.register-box .register .register-right .xingbie label:before{
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    border: 1px solid #0072bc;
+    padding: 2px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+input[type="radio"]:checked + label::before {
+    background-color: #0072bc;
+    background-clip: content-box;
+    padding: .2em;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.register-box .register .register-right .xingbie{
+    display: flex;
+    color: #0072bc;
+}
+.register-box .register .register-right .xingbie .sex{
+    font-size: 36px;
+    color: #0072bc;
+}
+.register-box .register .register-right .male label{
+    font-size: 22px;
+    color: #0072bc;
+    margin-left: 30px;
+}
+.register-box .register .register-right .female label{
+    font-size: 22px;
+}
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.register-box .register .register-right .bottom-input .age{
+    margin-bottom: 25px;
+}
+.register-box .register .register-right .bottom-input .age .age-title{
+    font-size: 33px;
+    color: #0072bc;
+    margin-right: 13px;
+}
+.register-box .register .register-right .bottom-input .age .item .input{
+    border-bottom: 2px solid #fff;
+    width: 125px;
+    height: 31px;
+    margin-top: 23px;
+    position: relative;
+}
+.register-box .register .register-right .bottom-input .age .nrbwk{
+    position: absolute;
+    color: red;
+    left: 0;
+    width: 200px;
+}
+.register-box .register .register-right .bottom-input .age .item .spandata{
+    font-size: 33px;
+    color: #0072bc;
+    margin-top: 7px;
+}
+.register-box .register .register-right .bottom-input .age input{
+    background: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+}
+.register-box .register .register-right .bottom-input .bottom-input .age .input input{
+    font-size: 23px;
+}
+.register-box .register .register-right .bottom-input .list-zc input{
+    background: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.register-box .register .register-right .bottom-input .list-zc .items span{
+    font-size: 33px;
+    color: #0072bc;
+    margin-right: 13px;
+}
+.register-box .register .register-right .bottom-input .list-zc .items{
+    margin-bottom: 38px;
+}
+.register-box .register .register-right .bottom-input .list-zc .items .input{
+    border-bottom: 2px solid #fff;
+    height: 26px;
+    margin-top: 18px;
+    width: 475px;
+    position: relative;
+}
+.register-box .register .register-right .bottom-input .list-zc .items .dizhi{
+    position: absolute;
+    font-size: 16px;
+    color: red;
+    left: 0;
+}
+.register-box .register .register-right .bottom-input .zhuces{
+    height: 63px;
+    line-height: 63px;
+    background: #f7941d;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 81px;
+    cursor: pointer;
+}
+.register-box .register .register-right .bottom-input .list-zc .zhuces input{
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+
+}
+@media (max-width: 1680px){
+
+    /*注册样式*/
+    .registerbj .box-img{
+        width: 45px;
+        height: 45px;
+    }
+    .registerbj .box-img img{
+        width: 100%;
+    }
+    .register-box{
+        padding: 40px 47px;
+    }
+    .register-box .box-img img{
+        width: 100%;
+    }
+    .register-box .usertitle{
+        font-size: 30px;
+    }
+    .register-box .register{
+        margin-top: 27px;
+    }
+    .register-box .register .register-left{
+        margin-right: 58px;
+    }
+    .register-box .register .register-left .item{
+        width: 456px;
+        height: 53px;
+        display: block;
+        border-radius: 5px;
+        border: 2px solid #0072bc;
+        margin-top: 30px;
+    }
+    .register-box .register .register-left .item input{
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 19px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .register-box .register .register-left .item-a{
+        margin-top: 21px;
+        color: #000;
+        position: relative;
+    }
+    .register-box .register .register-left .item-a .tongyi{
+        position: absolute;
+        font-size: 16px;
+        color: red;
+        right: 0;
+        top: 0;
+    }
+    .register-box .register .register-left .item-a .select{
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+        cursor: pointer;
+    }
+    .register-box .register .register-left .item-a input{
+        margin-top: 7px;
+        margin-right: 8px;
+    }
+    .register-box .register .register-left .bottom .itema{
+        display: inline-block;
+        width: 140px;
+        height: 58px;
+        line-height: 58px;
+        text-align: center;
+        margin-right: 165px;
+        background: #c9c3c3;
+        border-radius: 8px;
+        margin-top: 50px;
+        cursor: pointer;
+        font-size: 19px;
+    }
+    .register-box .register .register-left .bottom .itema:nth-child(2){
+        margin-right: 0;
+    }
+    .register-box .register .register-right{
+        margin-top: 24px;
+    }
+    .register-box .register .register-right .xingbie{
+        margin-bottom: 24px;
+    }
+    .register-box .register .register-right .xingbie .sex{
+        font-size: 31px;
+        color: #0072bc;
+    }
+    .register-box .register .register-right .bottom-input .age{
+        margin-bottom: 24px;
+    }
+    .register-box .register .register-right .bottom-input .age .age-title{
+        font-size: 31px;
+        color: #0072bc;
+        margin-right: 12px;
+    }
+    .register-box .register .register-right .bottom-input .age .item .input{
+        border-bottom: 2px solid #fff;
+        width: 94px;
+        height: 24px;
+        margin-top: 17px;
+    }
+    .register-box .register .register-right .bottom-input .age .item .spandata{
+        font-size: 25px;
+        color: #0072bc;
+        margin-top: 6px;
+    }
+    .register-box .register .register-right .bottom-input .age input{
+        background: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .register-box .register .register-right .bottom-input .bottom-input .age .input input{
+        font-size: 21px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc input{
+        background: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items span{
+        font-size: 31px;
+        color: #0072bc;
+        margin-right: 12px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items{
+        margin-bottom: 25px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items .input{
+        border-bottom: 2px solid #fff;
+        height: 25px;
+        margin-top: 17px;
+        width: 352px;
+    }
+    .register-box .register .register-right .bottom-input .zhuces{
+        height: 59px;
+        line-height: 59px;
+        background: #f7941d;
+        text-align: center;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-top: 76px;
+        cursor: pointer;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .zhuces input{
+        font-size: 25px;
+        color: #fff;
+
+    }
+}
+@media (max-width: 1440px){
+    /*注册样式*/
+    .registerbj .box-img{
+        width: 40px;
+        height: 40px;
+    }
+    .registerbj .box-img img{
+        width: 100%;
+    }
+    .register-box{
+        padding: 36px 42px;
+    }
+    .register-box .box-img img{
+        width: 100%;
+    }
+    .register-box .usertitle{
+        font-size: 26px;
+    }
+    .register-box .register{
+        margin-top: 25px;
+    }
+    .register-box .register .register-left{
+        margin-right: 51px;
+    }
+    .register-box .register .register-left .item{
+        width: 408px;
+        height: 48px;
+        display: block;
+        border-radius: 5px;
+        border: 2px solid #0072bc;
+        margin-top: 28px;
+    }
+    .register-box .register .register-left .item input{
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 19px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .register-box .register .register-left .item-a{
+        margin-top: 19px;
+        color: #000;
+    }
+    .register-box .register .register-left .item-a .select{
+        width: 21px;
+        height: 21px;
+        margin-top: 3px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .register-box .register .register-left .item-a input{
+        margin-top: 6px;
+        margin-right: 7px;
+    }
+    .register-box .register .register-left .bottom .itema{
+        display: inline-block;
+        width: 125px;
+        height: 52px;
+        line-height: 52px;
+        text-align: center;
+        margin-right: 150px;
+        background: #c9c3c3;
+        border-radius: 8px;
+        margin-top: 45px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    .register-box .register .register-left .bottom .itema:nth-child(2){
+        margin-right: 0;
+    }
+    .register-box .register .register-right{
+        margin-top: 21px;
+    }
+    .register-box .register .register-right .xingbie{
+        margin-bottom: 21px;
+    }
+    .register-box .register .register-right .xingbie .sex{
+        font-size: 28px;
+        color: #0072bc;
+    }
+    .register-box .register .register-right .bottom-input .age{
+        margin-bottom: 21px;
+    }
+    .register-box .register .register-right .bottom-input .age .age-title{
+        font-size: 30px;
+        color: #0072bc;
+        margin-right: 12px;
+    }
+    .register-box .register .register-right .bottom-input .age .item .input{
+        border-bottom: 2px solid #fff;
+        width: 90px;
+        height: 22px;
+        margin-top: 16px;
+    }
+    .register-box .register .register-right .bottom-input .age .item .spandata{
+        font-size: 22px;
+        color: #0072bc;
+        margin-top: 5px;
+    }
+    .register-box .register .register-right .bottom-input .age input{
+        background: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .register-box .register .register-right .bottom-input .bottom-input .age .input input{
+        font-size: 19px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc input{
+        background: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items span{
+        font-size: 28px;
+        color: #0072bc;
+        margin-right: 11px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items{
+        margin-bottom: 32px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items .input{
+        border-bottom: 2px solid #fff;
+        height: 22px;
+        margin-top: 15px;
+        width: 315px;
+    }
+    .register-box .register .register-right .bottom-input .zhuces{
+        height: 53px;
+        line-height: 53px;
+        background: #f7941d;
+        text-align: center;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-top: 68px;
+        cursor: pointer;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .zhuces input{
+        font-size: 22px;
+        color: #fff;
+
+    }
+}
+@media (max-width: 1366px){
+    /*注册样式*/
+    .registerbj .box-img{
+        width: 38px;
+        height: 38px;
+    }
+    .registerbj .box-img img{
+        width: 100%;
+    }
+    .register-box{
+        padding: 34px 40px;
+    }
+    .register-box .box-img img{
+        width: 100%;
+    }
+    .register-box .usertitle{
+        font-size: 25px;
+    }
+    .register-box .register{
+        margin-top: 23px;
+    }
+    .register-box .register .register-left{
+        margin-right: 49px;
+    }
+    .register-box .register .register-left .item{
+        width: 388px;
+        height: 45px;
+        display: block;
+        border-radius: 5px;
+        border: 2px solid #0072bc;
+        margin-top: 26px;
+    }
+    .register-box .register .register-left .item input{
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 16px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .register-box .register .register-left .item-a{
+        margin-top: 18px;
+        color: #000;
+    }
+    .register-box .register .register-left .item-a .select{
+        width: 20px;
+        height: 20px;
+        margin-top: 3px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .register-box .register .register-left .item-a input{
+        margin-top: 6px;
+        margin-right: 7px;
+    }
+    .register-box .register .register-left .bottom{
+
+    }
+    .register-box .register .register-left .bottom .itema{
+        display: inline-block;
+        width: 119px;
+        height: 49px;
+        line-height: 49px;
+        text-align: center;
+        margin-right: 143px;
+        background: #c9c3c3;
+        border-radius: 8px;
+        margin-top: 43px;
+        cursor: pointer;
+    }
+    .register-box .register .register-left .bottom .itema:nth-child(2){
+        margin-right: 0;
+    }
+    .register-box .register .register-right{
+        margin-top: 20px;
+    }
+    .register-box .register .register-right .xingbie{
+        margin-bottom: 20px;
+    }
+    .register-box .register .register-right .xingbie .sex{
+        font-size: 26px;
+        color: #0072bc;
+    }
+    .register-box .register .register-right .bottom-input .age{
+        margin-bottom: 20px;
+    }
+    .register-box .register .register-right .bottom-input .age .age-title{
+        font-size: 26px;
+        color: #0072bc;
+        margin-right: 10px;
+    }
+    .register-box .register .register-right .bottom-input .age .item .input{
+        border-bottom: 2px solid #fff;
+        width: 80px;
+        height: 20px;
+        margin-top: 14px;
+    }
+    .register-box .register .register-right .bottom-input .age .item .spandata{
+        font-size: 21px;
+        color: #0072bc;
+        margin-top: 5px;
+    }
+    .register-box .register .register-right .bottom-input .age input{
+        background: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .register-box .register .register-right .bottom-input .bottom-input .age .input input{
+        font-size: 18px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc input{
+        background: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items span{
+        font-size: 26px;
+        color: #0072bc;
+        margin-right: 10px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items{
+        margin-bottom: 30px;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .items .input{
+        border-bottom: 2px solid #fff;
+        height: 21px;
+        margin-top: 14px;
+        width: 300px;
+    }
+    .register-box .register .register-right .bottom-input .zhuces{
+        height: 50px;
+        line-height: 50px;
+        background: #f7941d;
+        text-align: center;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-top: 65px;
+        cursor: pointer;
+    }
+    .register-box .register .register-right .bottom-input .list-zc .zhuces input{
+        font-size: 21px;
+        color: #fff;
+
+    }
+
+}

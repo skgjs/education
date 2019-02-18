@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <script src="js/jquery.min.js"></script>
+    <!--<script src="js/header.js"></script>-->
+    <title>首页</title>
+</head>
+<body class="bgc" >
+<!--头部-->
+<header class="header width">
+    <div class="top-nav">
+        <a href="index.html" class="logo-left fl">
+            <img src="images/logo.png" alt="">
+        </a>
+        <div class="signin-right fr">
+            <div class="right-search">
+                <input class="input fl" type="text" placeholder="搜索课程">
+                <a class="right-img fl" href="#">
+                    <img src="images/magnifier.png" alt="">
+                </a>
+                <div style="clear: both"></div>
+            </div>
+            <a href="signin.html" class="signin-title">登录/注册</a>
+            <!--登录成功状态-->
+            <!--<div class="signin-titlea" id="signin">-->
+                <!--<img src="images/signin.png" alt="">-->
+            <!--</div>-->
+            <!--<div class="signout" id="signout" style="display: none">-->
+                <!--<div class="nickname">-->
+                    <!--<div class="face">-->
+                        <!--<img src="images/signin.png" alt="">-->
+                    <!--</div>-->
+                    <!--<div class="name-box">-->
+                        <!--<p class="name">拒绝平庸，不一样也挺好。。</p>-->
+                        <!--<p class="id">（ID：<span>115764</span>）</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<a class="obtain" href="memberpage.html">获取vip特权</a>-->
+                <!--<a class="logout" href="#">[退出登录]</a>-->
+                <!--<div id="tcbj" style="display: none"></div>-->
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    <nav class="nav-box">
+        <div class="nav-left fl">
+            <a class="item act" href="index.html">选择课程</a>
+            <a class="item" href="freeview.html">免费课程</a>
+            <a class="item" href="#">直播课程</a>
+            <a class="item" href="vip.html">VIP尊享</a>
+            <a class="item" href="about.html">关于我们</a>
+            <a class="item" href="mores.html">更多</a>
+        </div>
+        <div class="nav-right fl">
+            <div class="nav-right-icon">
+                <img src="images/telephone.png" alt="">
+            </div>
+            <p class="nav-right-title">联系方式：15118115078 / 0755-33563420</p>
+        </div>
+        <div style="clear: both"></div>
+    </nav>
+</header>
+<!--轮播图-->
+<section>
+    <div class="broadcast">
+        <ul id="kk">
+            <li><img src="images/bannerc.png" alt=""></li>
+            <li><img src="images/bannera.png" alt=""></li>
+            <li><img src="images/bannerb.png" alt=""></li>
+        </ul>
+        <div id="mun" class="icon-span">
+            <span class="on"></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="study.html" class="study">
+            <p class="study-title">开始学习</p>
+        </a>
+    </div>
+</section>
+<!--会员级别-->
+<section>
+    <div class="member-bgc">
+        <div class="content-box width">
+            <div class="content fl">
+                <div class="content-left fl">
+                    <div class="left-img">
+                        <img src="images/vipa.png" alt="">
+                    </div>
+                    <P class="left-title">月度VIP</P>
+                </div>
+                <div class="content-right fl">
+                    <p class="right-title"><span>139</span>元会员卡</p>
+                    <p class="right-title-a">每天学习<span>5</span>个视频</p>
+                    <a href="memberpage.html?item=0" class="right-openup">
+                        <span class="openup">立即开通</span>
+                    </a>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div class="content fl">
+                <div class="content-left fl">
+                    <div class="left-img">
+                        <img src="images/vipb.png" alt="">
+                    </div>
+                    <P class="left-title left-titlea">年费VIP</P>
+                </div>
+                <div class="content-right fl">
+                    <p class="right-title"><span class="spana">499</span>元年卡会员</p>
+                    <p class="right-title-a">每天在指定区域学习视频，提供素材</p>
+                    <a href="memberpage.html?item=1" class="right-openup">
+                        <span class="openup">立即开通</span>
+                    </a>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div class="content fl">
+                <div class="content-left fl">
+                    <div class="left-img">
+                        <img src="images/vipc.png" alt="">
+                    </div>
+                    <P class="left-title left-titleb">终身VIP</P>
+                </div>
+                <div class="content-right fl">
+                    <p class="right-title"><span class="spanb">999</span>元终身会员</p>
+                    <p class="right-title-a">全站通用、无限学习、提供素材</p>
+                    <a href="memberpage.html?item=2" class="right-openup">
+                        <span class="openup">立即开通</span>
+                    </a>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+</section>
+<!--免费课程-->
+<section>
+    <div class="curriculum-bgc">
+        <div class="curriculum-box width">
+            <div class="title-top">
+                <p class="title">/免 费·课 程/</p>
+                <p class="title-content">来自全球各地的老师与你近距离授课，陪伴你在学习！</p>
+            </div>
+            <div class="title-center">
+                <p class="title fl">正在直播18节课></p>
+                <a href="freeview.html" class="title-a fr"><span>查看更多></span></a>
+                <div style="clear: both"></div>
+            </div>
+            <div class="content-box">
+                <a href="freedetails.html" class="title-bottom fl">
+                    <div class="pictrue">
+                        <img src="images/curriculuma.png" alt="">
+                        <div class="pictrue-title">
+                            <p class="title">2018年11月9日14:30直播</p>
+                        </div>
+                    </div>
+                    <div class="state">
+                        <p class="state-title">商业logo设计技巧！</p>
+                        <p class="state-title-a">免费课程</p>
+                        <div class="character">
+                            <div class="left-feca fl">
+                                <img src="images/feca.png" alt="">
+                            </div>
+                            <div class="right-content fl">
+                                <p class="title">王涛</p>
+                                <p class="contents">
+                                    老王研究设计多年，logo是体现老王研究设计多年，logo是体现
+                                </p>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="freedetails.html" class="title-bottom fl">
+                    <div class="pictrue">
+                        <img src="images/curriculumb.png" alt="">
+                        <div class="pictrue-title">
+                            <p class="title">2018年11月9日14:30直播</p>
+                        </div>
+                    </div>
+                    <div class="state">
+                        <p class="state-title">商业logo设计技巧！</p>
+                        <p class="state-title-a">免费课程</p>
+                        <div class="character">
+                            <div class="left-feca fl">
+                                <img src="images/feca.png" alt="">
+                            </div>
+                            <div class="right-content fl">
+                                <p class="title">王涛</p>
+                                <p class="contents">
+                                    老王研究设计多年，logo是体现 老王研究设计多年，logo是体现
+                                </p>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="freedetails.html" class="title-bottom fl">
+                    <div class="pictrue">
+                        <img src="images/curriculumc.png" alt="">
+                        <div class="pictrue-title">
+                            <p class="title">2018年11月9日14:30直播</p>
+                        </div>
+                    </div>
+                    <div class="state">
+                        <p class="state-title">商业logo设计技巧！</p>
+                        <p class="state-title-a">免费课程</p>
+                        <div class="character">
+                            <div class="left-feca fl">
+                                <img src="images/feca.png" alt="">
+                            </div>
+                            <div class="right-content fl">
+                                <p class="title">王涛</p>
+                                <p class="contents">
+                                    老王研究设计多年，logo是体现 老王研究设计多年，logo是体现
+                                </p>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                </a>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--计算机-->
+<section>
+    <div class="computerbgc">
+        <div class="computerbgc-box width">
+            <div class="computerbgc-title">
+                <a href="computer.html" class="title fl">计算机</a>
+                <nav class="nav fl">
+                    <a class="item" href="computer.html">计算机基础</a>
+                    <a class="item" href="computer.html">前端开发</a>
+                    <a class="item" href="computer.html">编程语言</a>
+                    <a class="item" href="computer.html">设计创作</a>
+                    <a class="item" href="computer.html">互联网营销</a>
+                </nav>
+                <a href="computer.html" class="see fr"><span>查看更多></span></a>
+                <div style="clear: both"></div>
+            </div>
+            <div class="advertisement">
+                <div class="advertisement-left fl">
+                    <a href="more.html">
+                        <img src="images/xcx.png" alt="">
+                    </a>
+                </div>
+                <div class="advertisement-right fl">
+                    <a href="more.html">
+                        <img src="images/ydhlw.png" alt="">
+                    </a>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div class="list">
+                <a href="freedetails.html" class="item fl">
+                    <div class="item-content">
+                        <div class="coursepictures">
+                            <img src="images/curriculum-a.png" alt="">
+                            <div class="coursepictures-title">
+                                <p class="title">点击进入学习</p>
+                            </div>
+                        </div>
+                        <div class="number">
+                            <p class="number-title">小程序体验课</p>
+                            <div class="flow">
+                                <div class="flow-left fl">
+                                    <img src="images/browse.png" class="fl info" alt="">
+                                    <img src="images/browsea.png" class="fl infos" alt="">
+                                    <span class="num fl">6689</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-center fl">
+                                    <img src="images/edit.png" class="fl edit" alt="">
+                                    <img src="images/edita.png" class="fl edita" alt="">
+                                    <span class="fl num">12</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-right fr">免费</div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="freedetails.html" class="item fl">
+                    <div class="item-content">
+                        <div class="coursepictures">
+                            <img src="images/curriculum-a.png" alt="">
+                            <div class="coursepictures-title">
+                                <p class="title">点击进入学习</p>
+                            </div>
+                        </div>
+                        <div class="number">
+                            <p class="number-title">课程功能体验</p>
+                            <div class="flow">
+                                <div class="flow-left fl">
+                                    <img src="images/browse.png" class="fl info" alt="">
+                                    <img src="images/browsea.png" class="fl infos" alt="">
+                                    <span class="num fl">6689</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-center fl">
+                                    <img src="images/edit.png" class="fl edit" alt="">
+                                    <img src="images/edita.png" class="fl edita" alt="">
+                                    <span class="fl num">12</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-right fr">免费</div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="vipdetails.html" class="item fl">
+                    <div class="item-content">
+                        <div class="coursepictures">
+                            <img src="images/curriculum-a.png" alt="">
+                            <div class="coursepictures-title">
+                                <p class="title">点击进入学习</p>
+                            </div>
+                        </div>
+                        <div class="number">
+                            <p class="number-title">UI设计入门必修课程</p>
+                            <div class="flow">
+                                <div class="flow-left fl">
+                                    <img src="images/browse.png" class="fl info" alt="">
+                                    <img src="images/browsea.png" class="fl infos" alt="">
+                                    <span class="num fl">6689</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-center fl">
+                                    <img src="images/edit.png" class="fl edit" alt="">
+                                    <img src="images/edita.png" class="fl edita" alt="">
+                                    <span class="fl num">12</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-right fr vip">VIP</div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="freedetails.html" class="item fl">
+                    <div class="item-content">
+                        <div class="coursepictures">
+                            <img src="images/curriculum-a.png" alt="">
+                            <div class="coursepictures-title">
+                                <p class="title">点击进入学习</p>
+                            </div>
+                        </div>
+                        <div class="number">
+                            <p class="number-title">人工智能的原理</p>
+                            <div class="flow">
+                                <div class="flow-left fl">
+                                    <img src="images/browse.png" class="fl info" alt="">
+                                    <img src="images/browsea.png" class="fl infos" alt="">
+                                    <span class="num fl">6689</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-center fl">
+                                    <img src="images/edit.png" class="fl edit" alt="">
+                                    <img src="images/edita.png" class="fl edita" alt="">
+                                    <span class="fl num">12</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-right fr">免费</div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="freedetails.html" class="item fl">
+                    <div class="item-content">
+                        <div class="coursepictures">
+                            <img src="images/curriculum-a.png" alt="">
+                            <div class="coursepictures-title">
+                                <p class="title">点击进入学习</p>
+                            </div>
+                        </div>
+                        <div class="number">
+                            <p class="number-title">前端开发精英课程</p>
+                            <div class="flow">
+                                <div class="flow-left fl">
+                                    <img src="images/browse.png" class="fl info" alt="">
+                                    <img src="images/browsea.png" class="fl infos" alt="">
+                                    <span class="num fl">6689</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-center fl">
+                                    <img src="images/edit.png" class="fl edit" alt="">
+                                    <img src="images/edita.png" class="fl edita" alt="">
+                                    <span class="fl num">12</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-right fr">免费</div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="vipdetails.html" class="item fl">
+                    <div class="item-content">
+                        <div class="coursepictures">
+                            <img src="images/curriculum-a.png" alt="">
+                            <div class="coursepictures-title">
+                                <p class="title">点击进入学习</p>
+                            </div>
+                        </div>
+                        <div class="number">
+                            <p class="number-title">编程语言入门学</p>
+                            <div class="flow">
+                                <div class="flow-left fl">
+                                    <img src="images/browse.png" class="fl info" alt="">
+                                    <img src="images/browsea.png" class="fl infos" alt="">
+                                    <span class="num fl">6689</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-center fl">
+                                    <img src="images/edit.png" class="fl edit" alt="">
+                                    <img src="images/edita.png" class="fl edita" alt="">
+                                    <span class="fl num">12</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="flow-right fr vip">VIP</div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--发展-->
+<section>
+    <div class="development-box width">
+        <p class="development-title">艺之都网络的发展，指日可待！</p>
+        <p class="development-content">
+            <span>艺之都网络</span>汇聚全国众多知名设计师的设计资源，旨在打造将高端设计平民化，
+            打造最新、最全、最便捷的一站式学习平台。
+        </p>
+        <div class="development-number">
+            <div class="left fl">
+                <p><span>2998</span>/个视频课程</p>
+            </div>
+            <div class="center fl">
+                <p><span>89</span>/优秀讲师</p>
+            </div>
+            <div class="right fl">
+                <p><span>9999</span>/用户学习</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+</section>
+<!--底部-->
+<footer>
+    <div class="footerbgc">
+        <div class="footer-box width">
+            <div class="footer-left fl">
+                <div class="img">
+                    <img src="images/ewm.png" alt="">
+                </div>
+                <p class="title">扫一扫，关注我们</p>
+            </div>
+            <div class="footer-right fl">
+                <div class="right-top">
+                    <a class="item" href="about.html">关于我们</a>
+                    <a class="item" href="bottomnavigation.html?type=0">版权声明</a>
+                    <a class="item" href="bottomnavigation.html?type=1">侵权举报</a>
+                    <a class="item" href="bottomnavigation.html?type=2">联系我们</a>
+                    <a class="item" href="bottomnavigation.html?type=3">售后服务</a>
+                    <a class="item" href="bottomnavigation.html?type=4">常见问题</a>
+                    <a class="item" href="vip.html">VIP尊享</a>
+                    <a class="item" href="clause.html" target="_blank">注册协议</a>
+                </div>
+                <div class="right-center">
+                    <p class="item">2007-2017 yizhidou.com 版权所有粤ICP备：14099120号-3</p>
+                    <p class="item">深圳市艺之都网络科技有限公司 </p>
+                </div>
+                <div class="right-bottom">联系电话：0755-33563420</div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+</footer>
+<script>
+    // 轮播图
+    var list = document.getElementById('mun');
+    var ll = list.getElementsByTagName('span');
+    var kk = document.getElementById('kk');
+    var img = kk.getElementsByTagName('li');
+    var index = 0;
+    for (var i = 0; i < img.length; i++) {
+        img[i].style.display = 'none';
+    }
+    img[0].style.display = 'block';
+    setInterval(function () {
+        fn();
+    }, 3500);
+
+    function fn() {
+        index += 1;
+        for (var i = 0; i < ll.length; i++) {
+            ll[i].className = '';
+            img[i].style.display = 'none';
+        };
+        ll[index].className = 'on';
+        img[index].style.display = 'block';
+        if (index >= 2) {
+            index = -1;
+        };
+    }
+
+    for (var i = 0; i < ll.length; i++) {
+        ll[i].index = i;
+        ll[i].onmouseover = function () {
+            index = this.index - 1;
+            console.log(index)
+            fn();
+        };
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,625 @@
+.content-box{
+    border-top: 8px solid #f9f8f8;
+
+}
+.smallroutine{
+    cursor: pointer;
+}
+.smallroutine .title-box{
+    padding: 24px 0;
+    cursor: pointer;
+}
+.smallroutine .title-box .title {
+    font-size: 18px;
+    color: #fff;
+    background: #0072bc;
+    height: 37px;
+    line-height: 37px;
+    width: 84px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallroutine .title-box .title .img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.smallroutine .watch{
+    margin-top: 30px;
+    padding-bottom: 102px;
+}
+.smallroutine .watch .left-img{
+    width: 43%;
+    margin-right: 38px;
+}
+.smallroutine .watch .left-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.smallroutine .watch {
+    display: flex;
+    align-items: flex-end;
+}
+.smallroutine .watch .right-content .title-vip{
+
+}
+.smallroutine .watch .right-content .title-vip .title-item{
+    font-size: 36px;
+    color: #333;
+    margin-right: 40px;
+}
+.smallroutine .watch .right-content .title-vip .title-items{
+    font-size: 24px;
+    color: #0072bc;
+}
+.smallroutine .watch .right-content .click{
+    margin-top: 48px;
+}
+.smallroutine .watch .right-content .click .watch-title{
+    width: 264px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 30px;
+    color: #fff;
+    background: #0072bc;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 28px;
+}
+.smallroutine .watch .right-content .click .download {
+    width: 262px;
+    height: 62px;
+    line-height: 62px;
+    font-size: 30px;
+    color: #0072bc;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #0072bc;
+    display: inline-block;
+    border-radius: 5px;
+}
+.smallroutine .watch .right-content .number{
+    margin-top: 36px;
+}
+.smallroutine .watch .right-content .number img{
+    width: 31px;
+    height: 26px;
+    display: inline-block;
+}
+.smallroutine .watch .right-content .number .title{
+    font-size: 18px;
+    color: #53cde2;
+}
+/*课程详情*/
+.details-bj{
+    background: #f5f5f5;
+    padding: 48px 0;
+}
+.details{
+    background: #fff;
+    padding: 48px 52px;
+}
+.details-nav{
+    border-bottom: 1px solid #bfbfbf;
+}
+.details-nav .title{
+    font-size: 24px;
+    margin-right: 42px;
+    padding: 14px 0;
+    cursor: pointer;
+}
+.details-nav .act{
+    color: #0072bc;
+    border-bottom: 6px solid #0072bc;
+}
+.details-content{
+    background: #f5f5f5;
+    padding: 46px 26px 68px 26px;
+    margin-top: 32px;
+}
+.content-bottm{
+    padding-top: 24px;
+}
+.content-bottm .study {
+
+}
+.content-bottm .study .title{
+   display: flex;
+   align-items: center;
+}
+.content-bottm .study .title img{
+    width: 26px;
+    height: 26px;
+    margin-right: 6px;
+}
+.content-bottm .study .title span{
+    font-size: 24px;
+    color: #333;
+}
+.content-bottm .study .item{
+    margin-top: 24px;
+}
+.content-bottm .study .item .item-p{
+    font-size: 16px;
+    color: #333;
+    margin-top: 14px;
+}
+.content-bottm  .outline{
+    margin-top: 24px;
+}
+.content-bottm  .outline .title{
+    display: flex;
+    align-items: center;
+}
+.content-bottm  .outline .title img{
+    width: 28px;
+    height: 30px;
+    margin-right: 6px;
+}
+.content-bottm  .outline .title span{
+    font-size: 24px;
+    color: #333;
+}
+.content-bottm  .outline .item{
+    margin-top: 24px;
+ }
+.content-bottm  .outline .item .item-p{
+    font-size: 16px;
+    color: #333;
+    margin-top: 14px;
+}
+.switch{
+    display: none;
+}
+.act{
+   display: block;
+}
+/*评价*/
+.evaluate{
+    padding-top: 38px;
+}
+.evaluate .textarea{
+    width: 100%;
+}
+.evaluate .textarea textarea{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.evaluate .comment{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background: #0072bc;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.evaluate .exhibition{
+    margin-top: 30px;
+}
+.evaluate .exhibition .data .left-box .left-img{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.evaluate .exhibition .data .left-box .left-img img{
+    width: 100%;
+    min-height: 100%;
+}
+.evaluate .exhibition .data .left-box .left-content{
+    margin-top: 3px;
+    margin-left: 24px;
+}
+.evaluate .exhibition .data .left-box .left-content .nickname{
+    font-size: 18px;
+    color: #333;
+}
+.evaluate .exhibition .data .left-box .left-content .came img{
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+}
+.evaluate .exhibition .data .left-box .left-content .came span{
+    font-size: 16px;
+    color: #d4d4d4;
+    margin-left: 3px;
+}
+.evaluate .exhibition .data .right-box{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.evaluate .exhibition .data .right-box img{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+}
+.evaluate .exhibition .data .right-box span{
+    font-size: 18px;
+    color: #d4d4d4;
+}
+.evaluate .exhibition .content{
+    font-size: 18px;
+    color: #333;
+    padding-left:74px;
+    margin-top: 20px;
+    width: 500px;
+}
+@media (max-width: 1680px) {
+    .smallroutine .title-box .title{
+        font-size: 16px;
+        height: 32px;
+        line-height: 32px;
+        width: 74px;
+    }
+    .smallroutine .title-box{
+        padding: 21px 0;
+        cursor: pointer;
+    }
+    .smallroutine .watch{
+        margin-top: 26px;
+    }
+    .smallroutine .watch .left-img{
+        margin-right: 33px;
+    }
+    .smallroutine .watch .right-content .title-vip .title-item{
+        font-size: 32px;
+        margin-right: 35px;
+    }
+    .smallroutine .watch .right-content .title-vip .title-items{
+        font-size: 21px;
+    }
+    .smallroutine .watch .right-content .click{
+        margin-top: 42px;
+    }
+    .smallroutine .watch .right-content .click .watch-title{
+        width: 231px;
+        height: 56px;
+        line-height: 56px;
+        font-size: 26px;
+        margin-right: 25px;
+    }
+    .smallroutine .watch .right-content .click .download {
+        width: 230px;
+        height: 54px;
+        line-height: 54px;
+        font-size: 26px;
+    }
+    .smallroutine .watch .right-content .number{
+        margin-top: 32px;
+    }
+    .smallroutine .watch .right-content .number img{
+        width: 27px;
+        height: 23px;
+    }
+    .smallroutine .watch .right-content .number .title{
+        font-size: 16px;
+    }
+    /*课程详情*/
+    .details-bj{
+        padding: 42px 0;
+    }
+    .details{
+        padding: 42px 46px;
+    }
+    .details-nav .title{
+        font-size: 21px;
+        margin-right: 37px;
+        padding: 12px 0;
+    }
+    .details-nav .act{
+        border-bottom: 6px solid #0072bc;
+    }
+    .details-content{
+        padding: 40px 23px 60px 23px;
+        margin-top: 28px;
+    }
+    .content-bottm{
+        padding-top: 21px;
+    }
+    .content-bottm .study .title img{
+        width: 23px;
+        height: 23px;
+        margin-right: 6px;
+    }
+    .content-bottm .study .title span{
+        font-size: 21px;
+    }
+    .content-bottm .study .item{
+        margin-top: 21px;
+    }
+    .content-bottm .study .item .item-p{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    .content-bottm  .outline{
+        margin-top: 21px;
+    }
+    .content-bottm  .outline .title img{
+        width: 25px;
+        height: 26px;
+        margin-right: 6px;
+    }
+    .content-bottm  .outline .title span{
+        font-size: 21px;
+    }
+    .content-bottm  .outline .item{
+        margin-top: 21px;
+    }
+    .content-bottm  .outline .item .item-p{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    /*评价*/
+    .evaluate .comment{
+        font-size: 16px;
+    }
+    .evaluate .exhibition .data .left-box .left-content .nickname{
+        font-size: 17px;
+    }
+    .evaluate .exhibition .data .right-box span{
+        font-size: 16px;
+    }
+    .evaluate .exhibition .content{
+        font-size: 16px;
+    }
+    .evaluate .exhibition .data .left-box .left-content .came span{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1440px) {
+    .smallroutine .title-box .title{
+        font-size: 14px;
+        height: 28px;
+        line-height: 28px;
+        width: 63px;
+    }
+    .smallroutine .title-box{
+        padding: 18px 0;
+        cursor: pointer;
+    }
+    .smallroutine .watch{
+        margin-top: 23px;
+    }
+    .smallroutine .watch .left-img{
+        margin-right: 29px;
+    }
+    .smallroutine .watch .right-content .title-vip .title-item{
+        font-size: 27px;
+        margin-right: 30px;
+    }
+    .smallroutine .watch .right-content .title-vip .title-items{
+        font-size: 18px;
+    }
+    .smallroutine .watch .right-content .click{
+        margin-top: 36px;
+    }
+    .smallroutine .watch .right-content .click .watch-title{
+        width: 198px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 23px;
+        margin-right: 21px;
+    }
+    .smallroutine .watch .right-content .click .download {
+        width: 197px;
+        height: 47px;
+        line-height: 47px;
+        font-size: 23px;
+    }
+    .smallroutine .watch .right-content .number{
+        margin-top: 27px;
+    }
+    .smallroutine .watch .right-content .number img{
+        width: 23px;
+        height: 20px;
+    }
+    .smallroutine .watch .right-content .number .title{
+        font-size: 14px;
+    }
+    /*课程详情*/
+    .details-bj{
+        padding: 36px 0;
+    }
+    .details{
+        padding: 36px 39px;
+    }
+    .details-nav .title{
+        font-size: 18px;
+        margin-right: 32px;
+        padding: 11px 0;
+    }
+    .details-nav .act{
+        border-bottom: 5px solid #0072bc;
+    }
+    .details-content{
+        padding: 35px 20px 51px 20px;
+        margin-top: 24px;
+    }
+    .content-bottm{
+        padding-top: 18px;
+    }
+    .content-bottm .study .title img{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    .content-bottm .study .title span{
+        font-size: 18px;
+    }
+    .content-bottm .study .item{
+        margin-top: 18px;
+    }
+    .content-bottm .study .item .item-p{
+        font-size: 12px;
+        margin-top: 11px;
+    }
+    .content-bottm  .outline{
+        margin-top: 18px;
+    }
+    .content-bottm  .outline .title img{
+        width: 21px;
+        height: 23px;
+        margin-right: 5px;
+    }
+    .content-bottm  .outline .title span{
+        font-size: 18px;
+    }
+    .content-bottm  .outline .item{
+        margin-top: 18px;
+    }
+    .content-bottm  .outline .item .item-p{
+        font-size: 12px;
+        margin-top: 11px;
+    }
+
+    /*评价*/
+    .evaluate .comment{
+        font-size: 15px;
+    }
+    .evaluate .exhibition .data .left-box .left-content .nickname{
+        font-size: 16px;
+    }
+    .evaluate .exhibition .data .right-box span{
+        font-size: 15px;
+    }
+    .evaluate .exhibition .content{
+        font-size: 15px;
+    }
+    .evaluate .exhibition .data .left-box .left-content .came span{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1366px) {
+    .smallroutine .title-box .title{
+        font-size: 13px;
+        height: 26px;
+        line-height: 26px;
+        width: 60px;
+    }
+    .smallroutine .title-box{
+        padding: 17px 0;
+        cursor: pointer;
+    }
+    .smallroutine .watch{
+        margin-top: 21px;
+    }
+    .smallroutine .watch .left-img{
+        margin-right: 27px;
+    }
+    .smallroutine .watch .right-content .title-vip .title-item{
+        font-size: 26px;
+        margin-right: 28px;
+    }
+    .smallroutine .watch .right-content .title-vip .title-items{
+        font-size: 17px;
+    }
+    .smallroutine .watch .right-content .click{
+        margin-top: 34px;
+    }
+    .smallroutine .watch .right-content .click .watch-title{
+        width: 187px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 21px;
+        margin-right: 20px;
+    }
+    .smallroutine .watch .right-content .click .download {
+        width: 186px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 21px;
+    }
+    .smallroutine .watch .right-content .number{
+        margin-top: 26px;
+    }
+    .smallroutine .watch .right-content .number img{
+        width: 22px;
+        height: 18px;
+    }
+    .smallroutine .watch .right-content .number .title{
+        font-size: 13px;
+    }
+    /*课程详情*/
+    .details-bj{
+        padding: 34px 0;
+    }
+    .details{
+        padding: 34px 37px;
+    }
+    .details-nav .title{
+        font-size: 17px;
+        margin-right: 29px;
+        padding: 10px 0;
+    }
+    .details-nav .act{
+        border-bottom: 4px solid #0072bc;
+    }
+    .details-content{
+        padding: 32px 18px 48px 18px;
+        margin-top: 22px;
+    }
+    .content-bottm{
+        padding-top: 17px;
+    }
+    .content-bottm .study .title img{
+        width: 18px;
+        height: 18px;
+        margin-right: 4px;
+    }
+    .content-bottm .study .title span{
+        font-size: 17px;
+    }
+    .content-bottm .study .item{
+        margin-top: 17px;
+    }
+    .content-bottm .study .item .item-p{
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .content-bottm  .outline{
+        margin-top: 17px;
+    }
+    .content-bottm  .outline .title img{
+        width: 20px;
+        height: 21px;
+        margin-right: 4px;
+    }
+    .content-bottm  .outline .title span{
+        font-size: 17px;
+    }
+    .content-bottm  .outline .item{
+        margin-top: 17px;
+    }
+    .content-bottm  .outline .item .item-p{
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    /*评价*/
+    .evaluate .comment{
+        font-size: 14px;
+    }
+    .evaluate .exhibition .data .left-box .left-content .nickname{
+        font-size: 16px;
+    }
+    .evaluate .exhibition .data .right-box span{
+        font-size: 14px;
+    }
+    .evaluate .exhibition .content{
+        font-size: 14px;
+    }
+    .evaluate .exhibition .data .left-box .left-content .came span{
+        font-size: 14px;
+    }
+}

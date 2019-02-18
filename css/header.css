@@ -1,0 +1,623 @@
+/********头部样式********/
+.header .top-nav .logo-left {
+    margin-top: 20px;
+    width: 178px;
+    height: 59px;
+    cursor: pointer;
+}
+
+.header .top-nav .logo-left img {
+    width: 100%;
+}
+
+.header .top-nav .signin-right {
+    margin-top: 30px;
+    position: revert;
+}
+
+.header .top-nav .signin-right .right-search {
+    display: inline-block;
+    width: 320px;
+    height: 38px;
+    border: 1px solid #0072bc;
+    background: #0072bc;
+}
+
+.header .top-nav .signin-right .right-search .input {
+    display: inline-block;
+    width: 85%;
+    height: 38px;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+.header .top-nav .signin-right .right-search .right-img {
+    height: 38px;
+    width: 15%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.header .top-nav .signin-right .right-search .right-img img {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+}
+
+.header .top-nav .signin-right .signin-title {
+    display: inline-block;
+    font-size: 18px;
+    color: #0072bc;
+    margin-left: 55px;
+    vertical-align: top;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.header .top-nav .signin-right .signin-title:hover {
+    color: red;
+}
+.signin-titlea{
+    width: 34px;
+    height: 34px;
+    margin-left: 90px;
+    display: inline-block;
+    cursor: pointer;
+}
+.signin-titlea img{
+    width: 100%;
+}
+.signin-right .signout{
+    position: absolute;
+    right: 30px;
+    background: #fff;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    box-shadow:0 0 5px #e6e6e6 inset;
+    z-index: 999;
+    cursor: pointer;
+}
+.signin-right .signout .nickname{
+    display: flex;
+    align-items: center;
+    width: 250px;
+
+}
+.signin-right .signout .nickname .face{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    min-width: 80px;
+    margin-right: 12px;
+}
+.signin-right .signout .nickname .face img{
+    width: 100%;
+}
+.signin-right .signout .nickname .name-box{
+    overflow: hidden;
+}
+.signin-right .signout .nickname .name-box .name{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    color: #333;
+
+}
+.signin-right .signout .nickname .name-box .id{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    color: #333;
+}
+.signin-right .signout .obtain{
+    font-size: 18px;
+    width: 100%;
+    background: #0072bc;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 68px;
+}
+.signin-right .signout .logout{
+    font-size: 18px;
+    color: #333;
+    margin-top: 40px;
+    text-align: center;
+}
+#tcbj{
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+}
+/****************《/搜索登录》************************/
+
+/*********头部样式*******《导航》************************/
+.nav-box {
+    margin-top: 15px;
+}
+
+.nav-box .nav-left {
+    margin-right: 100px;
+}
+
+.nav-box .nav-left .item {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 18px;
+    padding: 12px 4px;
+    color: #333;
+    border-bottom: 5px solid #fff;
+}
+
+.nav-box .nav-left .act, .nav-box .nav-left .item:hover {
+    border-bottom-color:#0072bc;
+    color: #0072bc !important;
+}
+
+.nav-box .nav-right {
+    padding-top: 12px;
+}
+
+.nav-box .nav-right .nav-right-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.nav-box .nav-right .nav-right-icon img {
+    width: 100%;
+}
+
+.nav-box .nav-right .nav-right-title {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: #333;
+}
+@media (max-width: 1680px) {
+    /********头部样式********/
+    .header .top-nav .logo-left {
+        margin-top: 17.5px;
+        width: 156px;
+        height: 52px;
+        cursor: pointer;
+    }
+
+    .signin-titlea{
+        width: 32px;
+        height: 32px;
+        margin-left: 79px;
+    }
+    .header .top-nav .logo-left img {
+        width: 100%;
+    }
+
+    .header .top-nav .signin-right {
+        margin-top: 26px;
+    }
+
+    .header .top-nav .signin-right .right-search {
+        display: inline-block;
+        width: 280px;
+        height: 33px;
+        border: 1px solid #0072bc;
+        background: #0072bc;
+    }
+
+    .header .top-nav .signin-right .right-search .input {
+        display: inline-block;
+        width: 85%;
+        height: 33px;
+        border: none;
+        outline: none;
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+
+    .header .top-nav .signin-right .right-search .right-img {
+        height: 32px;
+        width: 15%;
+        text-align: center;
+        padding-top: 4px;
+    }
+
+    .header .top-nav .signin-right .right-search .right-img img {
+        width: 23.5px;
+        height: 23.5px;
+        display: inline-block;
+    }
+
+    .header .top-nav .signin-right .signin-title {
+        display: inline-block;
+        font-size: 16px;
+        color: #0072bc;
+        margin-left: 48px;
+        vertical-align: top;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+
+    .header .top-nav .signin-right .signin-title:hover {
+        color: red;
+    }
+
+    /****************《/搜索登录》************************/
+    /*********头部样式*******《导航》************************/
+    .nav-box {
+        margin-top: 15px;
+    }
+
+    .nav-box .nav-left {
+        margin-right: 100px;
+    }
+
+    .nav-box .nav-left .item {
+        display: inline-block;
+        margin-right: 35px;
+        font-size: 16px;
+        padding: 12px 4px;
+        color: #333;
+    }
+
+    .nav-box .nav-left .act, .nav-box .nav-left .item:hover {
+        border-bottom: 5px solid #0072bc;
+        color: #0072bc !important;
+    }
+
+    .nav-box .nav-right {
+        padding-top: 12px;
+    }
+
+    .nav-box .nav-right .nav-right-icon {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        margin-right: 17.5px;
+    }
+
+    .nav-box .nav-right .nav-right-icon img {
+        width: 100%;
+    }
+
+    .nav-box .nav-right .nav-right-title {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .signin-right .signout{
+        right: 26px;
+        padding: 18px 26px;
+    }
+    .signin-right .signout .nickname{
+        width: 219px;
+    }
+    .signin-right .signout .nickname .face{
+        width: 70px;
+        height: 70px;
+        min-width: 70px;
+        margin-right: 11px;
+    }
+    .signin-right .signout .nickname .name-box .name{
+        font-size: 16px;
+    }
+    .signin-right .signout .nickname .name-box .id{
+        font-size: 16px;
+    }
+    .signin-right .signout .obtain{
+        font-size: 16px;
+        height: 44px;
+        line-height: 44px;
+        margin-top: 60px;
+    }
+    .signin-right .signout .logout{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1440px) {
+    /********头部样式********/
+    .header .top-nav .logo-left {
+        margin-top: 15px;
+        width: 133px;
+        height: 44px;
+        cursor: pointer;
+    }
+    .signin-titlea{
+        width: 30px;
+        height: 30px;
+        margin-left: 67px;
+    }
+    .header .top-nav .logo-left img {
+        width: 100%;
+    }
+
+    .header .top-nav .signin-right {
+        margin-top: 22.5px;
+    }
+
+    .header .top-nav .signin-right .right-search {
+        display: inline-block;
+        width: 240px;
+        height: 28.5px;
+        border: 1px solid #0072bc;
+        background: #0072bc;
+    }
+
+    .header .top-nav .signin-right .right-search .input {
+        display: inline-block;
+        width: 85%;
+        height: 28.5px;
+        border: none;
+        outline: none;
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+
+    .header .top-nav .signin-right .right-search .right-img {
+        height: 28.5px;
+        width: 15%;
+        text-align: center;
+        padding-top: 3.75px;
+    }
+
+    .header .top-nav .signin-right .right-search .right-img img {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+    }
+
+    .header .top-nav .signin-right .signin-title {
+        display: inline-block;
+        font-size: 13.5px;
+        color: #0072bc;
+        margin-left: 41px;
+        vertical-align: top;
+        margin-top: 6px;
+        cursor: pointer;
+    }
+
+    .header .top-nav .signin-right .signin-title:hover {
+        color: red;
+    }
+
+
+
+    /****************《/搜索登录》************************/
+    /*********头部样式*******《导航》************************/
+    .nav-box {
+        margin-top: 15px;
+    }
+
+    .nav-box .nav-left {
+        margin-right: 75px;
+    }
+
+    .nav-box .nav-left .item {
+        display: inline-block;
+        margin-right: 30px;
+        font-size: 13.5px;
+        padding: 12px 4px;
+        color: #333;
+    }
+
+    .nav-box .nav-left .act, .nav-box .nav-left .item:hover {
+        border-bottom: 5px solid #0072bc;
+        color: #0072bc !important;
+    }
+
+    .nav-box .nav-right {
+        padding-top: 12px;
+    }
+
+    .nav-box .nav-right .nav-right-icon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-right: 15px;
+    }
+
+    .nav-box .nav-right .nav-right-icon img {
+        width: 100%;
+    }
+
+    .nav-box .nav-right .nav-right-title {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 13.5px;
+        color: #333;
+    }
+
+    .signin-right .signout{
+        right: 23px;
+        padding: 15px 23px;
+    }
+    .signin-right .signout .nickname{
+        width: 189px;
+
+    }
+    .signin-right .signout .nickname .face{
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        margin-right: 9px;
+    }
+    .signin-right .signout .nickname .name-box .name{
+        font-size: 14px;
+    }
+    .signin-right .signout .nickname .name-box .id{
+        font-size: 14px;
+    }
+    .signin-right .signout .obtain{
+        font-size: 14px;
+        height: 38px;
+        line-height: 38px;
+        margin-top: 51px;
+    }
+    .signin-right .signout .logout{
+        font-size: 14px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1366px) {
+    /********头部样式********/
+    .header .top-nav .logo-left {
+        margin-top: 14px;
+        width: 126px;
+        height: 42px;
+        cursor: pointer;
+    }
+    .signin-titlea{
+        width: 27px;
+        height: 27px;
+        margin-left: 44px;
+    }
+    .header .top-nav .logo-left img {
+        width: 100%;
+    }
+
+    .header .top-nav .signin-right {
+        margin-top: 21px;
+    }
+
+    .header .top-nav .signin-right .right-search {
+        display: inline-block;
+        width: 227px;
+        height: 27px;
+        border: 1px solid #0072bc;
+        background: #0072bc;
+    }
+
+    .header .top-nav .signin-right .right-search .input {
+        display: inline-block;
+        width: 85%;
+        height: 27px;
+        border: none;
+        outline: none;
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+
+    .header .top-nav .signin-right .right-search .right-img {
+        height: 38px;
+        width: 15%;
+        text-align: center;
+        padding-top: 4px;
+    }
+
+    .header .top-nav .signin-right .right-search .right-img img {
+        width: 19px;
+        height: 19px;
+        display: inline-block;
+    }
+
+    .header .top-nav .signin-right .signin-title {
+        display: inline-block;
+        font-size: 13px;
+        color: #0072bc;
+        margin-left: 39px;
+        vertical-align: top;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+
+    .header .top-nav .signin-right .signin-title:hover {
+        color: red;
+    }
+
+    /****************《/搜索登录》************************/
+    /*********头部样式*******《导航》************************/
+    .nav-box {
+        margin-top: 15px;
+    }
+
+    .nav-box .nav-left {
+        margin-right: 100px;
+    }
+
+    .nav-box .nav-left .item {
+        display: inline-block;
+        margin-right: 28px;
+        font-size: 13px;
+        padding: 12px 4px;
+        color: #333;
+    }
+
+    .nav-box .nav-left .act, .nav-box .nav-left .item:hover {
+        border-bottom: 3px solid #0072bc;
+        color: #0072bc !important;
+    }
+
+    .nav-box .nav-right {
+        padding-top: 12px;
+    }
+
+    .nav-box .nav-right .nav-right-icon {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        margin-right: 14px;
+    }
+
+    .nav-box .nav-right .nav-right-icon img {
+        width: 100%;
+    }
+
+    .nav-box .nav-right .nav-right-title {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 13px;
+        color: #333;
+    }
+
+    .signin-right .signout{
+        right: 21px;
+        padding: 14px 21px;
+    }
+    .signin-right .signout .nickname{
+        width: 175px;
+    }
+    .signin-right .signout .nickname .face{
+        width: 56px;
+        height: 56px;
+        min-width: 56px;
+        margin-right: 8px;
+    }
+    .signin-right .signout .nickname .name-box .name{
+        font-size: 14px;
+    }
+    .signin-right .signout .nickname .name-box .id{
+        font-size: 14px;
+    }
+    .signin-right .signout .obtain{
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px;
+        margin-top: 47px;
+    }
+    .signin-right .signout .logout{
+        font-size: 14px;
+        margin-top: 28px;
+    }
+}
+
+/****************《/导航》************************/

@@ -1,0 +1,358 @@
+/*登录页样式*/
+.entrybgc-bj{
+    width: 100%;
+    min-width: 1200px;
+    min-height: 600px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.entrybgc-bj .imgbj{
+    width: 100%;
+    height: 100%;
+}
+.entrybgc-position{
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.entrybgc .entrybgc-img{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.entrybgc .entrybgc-img img{
+    width: 100%;
+}
+.entrybgc .entry-left .title{
+    font-size: 48px;
+    color: #fff;
+}
+.formbgc{
+    width: 30%;
+    background: rgba(255,255,255,0.8);
+    padding: 60px 30px;
+}
+.formbgc .formtop .logo-img{
+    width: 254px;
+    height: 84px;
+    margin: 0 auto;
+}
+.formbgc .formtop .logo-img img{
+    width: 100%;
+}
+.formbgc .formtop .formtop-title{
+    font-size: 36px;
+    color: #0072bc;
+    margin-top: 70px;
+}
+.form-box .input .input-top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.form-box .input .input-top span{
+    position: absolute;
+    bottom: -25px;
+}
+.form-box .input .input-top input{
+    width: 100%;
+    height: 58px;
+    outline: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background: none;
+    border: 2px solid #0072bc;
+}
+.form-box .input .input-bottom{
+    margin-top: 30px;
+}
+.form-box .input .input-bottom input{
+    width: 100%;
+    height: 58px;
+    outline: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background: none;
+    border: 2px solid #0072bc;
+
+}
+.form-box .identity{
+    margin-top: 20px;
+}
+.form-box .identity .item{
+    width: 30%;
+    height: 56px;
+    line-height: 56px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display:block;
+    color:#000;
+    margin-right: 5%;
+    cursor: pointer;
+    background: #c9c3c3;
+}
+.form-box .identity .act{
+    background: #0072bc;
+    color: #fff;
+}
+.form-box .identity .item:nth-child(3){
+    margin-right: 0;
+}
+.form-box .entry{
+    margin-top: 36px;
+}
+.form-box .entry .item{
+    width: 66%;
+    height: 70px;
+    line-height: 70px;
+    background: #0072bc;
+    text-align: center;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 26px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.form-box .entry .item-a{
+    width: 34%;
+    height: 70px;
+    line-height: 70px;
+    background: #f7941d;
+    text-align: center;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 26px;
+}
+.form-box .forget{
+    margin-top: 30px;
+}
+.form-box .forget .left{
+    cursor: pointer;
+}
+.form-box .forget .left img{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+}
+.form-box .forget .left span{
+    font-size: 24px;
+    color: #0072bc;
+    margin-left: 6px;
+}
+.form-box .forget .right .title{
+    font-size: 24px;
+    color: #0072bc;
+}
+@media (max-width: 1680px){
+    /*登录页*/
+    .entrybgc .entry-left .title{
+        font-size: 42px;
+    }
+    .formbgc{
+        padding: 53px 26px;
+        margin-left: 158px;
+    }
+    .formbgc .formtop  .logo-img{
+        width: 222px;
+        height: 74px;
+    }
+    .formbgc .formtop .formtop-title{
+        font-size: 32px;
+        margin-top: 61px;
+    }
+    .form-box .input .input-top input{
+        height: 51px;
+        padding-left: 18px;
+    }
+    .form-box .input .input-bottom{
+        margin-top: 26px;
+    }
+    .form-box .input .input-bottom input{
+        height: 51px;
+        padding-left: 18px;
+    }
+    .form-box .identity{
+        margin-top: 18px;
+    }
+    .form-box .identity .item{
+        height: 49px;
+        line-height: 49px;
+    }
+    .form-box .entry{
+        margin-top: 32px;
+    }
+    .form-box .entry .item{
+        height: 61px;
+        line-height: 61px;
+        font-size: 24px;
+    }
+    .form-box .entry .item-a{
+        height: 61px;
+        line-height: 61px;
+        font-size: 24px;
+    }
+    .form-box .forget{
+        margin-top: 26px;
+    }
+    .form-box .forget .left img{
+        width: 22px;
+        height: 22px;
+        margin-top: 6px;
+    }
+    .form-box .forget .left span{
+        font-size: 21px;
+    }
+    .form-box .forget .right .title{
+        font-size: 21px;
+    }
+    .formbgc .formtop .formtop-title{
+        font-size: 32px;
+    }
+}
+@media (max-width: 1440px){
+    /*登录样式*/
+    .formbgc{
+        padding: 45px 23px;
+        margin-left: 135px;
+    }
+    .formbgc .formtop .logo-img{
+        width: 190px;
+        height: 63px;
+    }
+    .formbgc .formtop .formtop-title{
+        font-size: 27px;
+        margin-top: 53px;
+    }
+    .form-box .input .input-top input{
+        height: 44px;
+        padding-left: 15px;
+    }
+    .form-box .input .input-bottom{
+        margin-top: 23px;
+    }
+    .form-box .input .input-bottom input{
+        height: 44px;
+        padding-left: 15px;
+    }
+    .form-box .identity{
+        margin-top: 15px;
+    }
+    .form-box .identity .item{
+        height: 42px;
+        line-height: 42px;
+    }
+    .form-box .entry{
+        margin-top: 27px;
+    }
+    .form-box .entry .item{
+        height: 53px;
+        line-height: 53px;
+        font-size: 20px;
+    }
+    .form-box .entry .item-a{
+        height: 53px;
+        line-height: 53px;
+        font-size: 20px;
+    }
+    .form-box .forget{
+        margin-top: 23px;
+    }
+    .form-box .forget .left img{
+        width: 19px;
+        height: 19px;
+        margin-top: 5px;
+    }
+    .form-box .forget .left span{
+        font-size: 18px;
+    }
+    .formbgc .formtop .formtop-title{
+        font-size: 27px;
+    }
+
+
+}
+@media (max-width: 1366px){
+    /*登录样式*/
+    .entrybgc .entry-left .title{
+        font-size: 34px;
+        color: #fff;
+    }
+    .formbgc{
+        padding: 42px 21px;
+        margin-left: 126px;
+    }
+    .formbgc .formtop  .logo-img{
+        width: 178px;
+        height: 59px;
+    }
+    .formbgc .formtop .formtop-title{
+        font-size: 25px;
+        margin-top: 49px;
+    }
+    .form-box .input .input-top input{
+        height: 41px;
+        padding-left: 14px;
+    }
+    .form-box .input .input-bottom{
+        margin-top: 21px;
+    }
+    .form-box .input .input-bottom input{
+        height: 41px;
+        padding-left: 14px;
+    }
+    .form-box .identity{
+        margin-top: 14px;
+    }
+    .form-box .identity .item{
+        height: 40px;
+        line-height: 40px;
+    }
+    .form-box .entry{
+        margin-top: 25px;
+    }
+    .form-box .entry .item{
+        height: 49px;
+        line-height: 49px;
+        font-size: 20px;
+    }
+    .form-box .entry .item-a{
+        height: 49px;
+        line-height: 49px;
+        font-size: 20px;
+    }
+    .form-box .forget{
+        margin-top: 21px;
+    }
+    .form-box .forget .left img{
+        width: 18px;
+        height: 18px;
+        margin-top: 5px;
+    }
+    .form-box .forget .left span{
+        font-size: 17px;
+    }
+    .form-box .forget .right .title{
+        font-size: 17px;
+    }
+    .formbgc .formtop .formtop-title{
+        font-size: 18px;
+    }
+}

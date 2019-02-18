@@ -1,0 +1,531 @@
+.content-box{
+    border-top: 8px solid #f9f8f8;
+    padding-bottom: 30px;
+}
+.viewdetails .title-box{
+    padding: 24px 0;
+    cursor: pointer;
+}
+.viewdetails .title-box .title {
+    font-size: 18px;
+    color: #fff;
+    background: #0072bc;
+    height: 37px;
+    line-height: 37px;
+    width: 84px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.viewdetails .title-box .title .img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.viewdetails .video{
+
+}
+.viewdetails .video .video-bj{
+    width: 100%;
+    position: relative;
+}
+.viewdetails .video .video-bj img{
+    width: 100%;
+}
+.viewdetails .video .video-bj .watch{
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    left: 180px;
+}
+.viewdetails .video .video-bj .watch .watch-img{
+    width: 106px;
+    height: 106px;
+}
+.viewdetails .video .video-bj .watch .watch-img img{
+    width: 100%;
+    cursor: pointer;
+}
+.viewdetails .video .video-bj .watch .watch-title{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+.viewdetails .video .video-bj .xian{
+    position: absolute;
+    width: 1px;
+    background: #0072bc;
+    height: 400px;
+    left: 460px;
+    margin: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.viewdetails .video .video-bj .right-content{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 150px;
+}
+.viewdetails .video .video-bj .right-content .right-content-title{
+    font-size: 30px;
+    color: #fff;
+}
+.viewdetails .video .video-bj .right-content .content{
+    font-size: 18px;
+    line-height: 25px;
+    color: #0072bc;
+    margin-top: 100px;
+}
+.viewdetails .video  .playback{
+    width: 800px;
+    height: 600px;
+    position: fixed;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+.video-bj{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.7;
+    z-index: 10;
+}
+.video-icon{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    z-index: 200;
+    cursor: pointer;
+}
+.video-icon img{
+    width: 100%;
+}
+.Introduction{
+    padding: 86px 0;
+}
+.Introduction .Introduction-title .title{
+    font-size: 36px;
+    color: #333;
+    border-bottom: 4px solid #0072bc;
+    display: inline-block;
+}
+.Introduction .Introduction-left{
+    width: 50.5%;
+    margin-top: 34px;
+}
+.Introduction .Introduction-left .title{
+    font-size: 24px;
+    color: #0072bc;
+}
+.Introduction .Introduction-left .content{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+    line-height: 30px;
+    color: #333;
+}
+.Introduction .Introduction-right{
+    width: 37%;
+}
+.Introduction .Introduction-right img{
+    width: 100%;
+}
+.Introduction-list{
+    margin-top: 86px;
+}
+.Introduction-list .item{
+    width: 24%;
+    margin-right: 14%;
+}
+.Introduction-list .item:nth-child(3){
+    margin-right: 0;
+}
+.Introduction-list .item .item-img{
+    text-align: center;
+}
+.Introduction-list .item .item-img .icona{
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+}
+.Introduction-list .item .item-img .iconb{
+    width: 89px;
+    height: 121px;
+    margin: 0 auto;
+}
+.Introduction-list .item .item-img .iconc{
+    width: 128px;
+    height: 125px;
+    margin: 0 auto;
+}
+.Introduction-list .item .item-img .title{
+    font-size: 24px;
+    color: #0072bc;
+    margin-top: 34px;
+}
+.Introduction-list .item .item-content{
+    margin-top: 46px;
+    display:block;
+}
+.Introduction-list .item .item-content .introduce-congtent{
+    font-size: 18px;
+    color: #333;
+}
+.backgroundmap{
+    margin-top: 86px;
+    width: 100%;
+    position: relative;
+}
+.backgroundmap img{
+    width: 100%;
+}
+.backgroundmap .position{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.backgroundmap .position .backgroundmap-title{
+    font-size: 36px;
+    color: #fff;
+}
+.backgroundmap .position .backgroundmap-content{
+    font-size: 18px;
+    color: #0072bc;
+    line-height: 25px;
+    margin-top: 38px;
+}
+.flowchart{
+    margin-top: 82px;
+    padding-bottom: 130px;
+}
+.flowchart .flowchart-top{
+    width: 100%;
+}
+.flowchart .flowchart-top img{
+    width: 100%;
+}
+.flowchart .flowchart-bottom{
+    margin-top: 110px;
+    width: 100%;
+}
+.flowchart .flowchart-bottom img{
+    width: 100%;
+}
+@media (max-width: 1680px) {
+    .viewdetails .title-box .title{
+        font-size: 16px;
+        height: 32px;
+        line-height: 32px;
+        width: 74px;
+    }
+    .viewdetails .title-box{
+        padding: 21px 0;
+        cursor: pointer;
+    }
+    .viewdetails .video .video-bj .watch{
+        left: 158px;
+    }
+    .viewdetails .video .video-bj .watch .watch-img{
+        width: 93px;
+        height: 93px;
+    }
+    .viewdetails .video .video-bj .watch .watch-title{
+        font-size: 16px;
+        margin-top: 18px;
+    }
+    .viewdetails .video .video-bj .xian{
+        height: 350px;
+        left: 402px;
+    }
+    .viewdetails .video .video-bj .right-content{
+        right: 131px;
+    }
+    .viewdetails .video .video-bj .right-content .right-content-title{
+        font-size: 26px;
+    }
+    .viewdetails .video .video-bj .right-content .content{
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 88px;
+    }
+    .Introduction{
+        padding: 76px 0;
+    }
+    .Introduction .Introduction-title .title{
+        font-size: 32px;
+    }
+    .Introduction .Introduction-left{
+        margin-top: 30px;
+    }
+    .Introduction .Introduction-left .title{
+        font-size: 21px;
+    }
+    .Introduction .Introduction-left .content{
+        font-size: 16px;
+        margin-top: 14px;
+        margin-bottom: 20px;
+        line-height: 26px;
+    }
+
+    .flowchart{
+        margin-top: 72px;
+        padding-bottom: 114px;
+    }
+    .flowchart .flowchart-bottom{
+        margin-top: 96px;
+    }
+    .Introduction-list{
+        margin-top: 75px;
+    }
+    .Introduction-list .item .item-img .icona{
+        width: 109px;
+        height: 109px;
+    }
+    .Introduction-list .item .item-img .iconb{
+        width: 78px;
+        height: 106px;
+    }
+    .Introduction-list .item .item-img .iconc{
+        width: 112px;
+        height: 109px;
+    }
+    .Introduction-list .item .item-img .title{
+        font-size: 21px;
+        margin-top: 30px;
+    }
+    .Introduction-list .item .item-content{
+        margin-top: 40px;
+    }
+    .Introduction-list .item .item-content .introduce-congtent{
+        font-size: 16px;
+    }
+    .backgroundmap{
+        margin-top: 75px;
+    }
+    .backgroundmap .position .backgroundmap-title{
+        font-size: 32px;
+    }
+    .backgroundmap .position .backgroundmap-content{
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 33px;
+    }
+}
+@media (max-width: 1440px) {
+    .viewdetails .title-box .title{
+        font-size: 14px;
+        height: 28px;
+        line-height: 28px;
+        width: 63px;
+    }
+    .viewdetails .title-box{
+        padding: 18px 0;
+        cursor: pointer;
+    }
+    .viewdetails .video .video-bj .watch{
+        left: 135px;
+    }
+    .viewdetails .video .video-bj .watch .watch-img{
+        width: 80px;
+        height: 80px;
+    }
+    .viewdetails .video .video-bj .watch .watch-title{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .viewdetails .video .video-bj .xian{
+        height: 300px;
+        left: 345px;
+    }
+    .viewdetails .video .video-bj .right-content{
+        right: 113px;
+    }
+    .viewdetails .video .video-bj .right-content .right-content-title{
+        font-size: 23px;
+    }
+    .viewdetails .video .video-bj .right-content .content{
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 75px;
+    }
+    .Introduction{
+        padding: 64px 0;
+    }
+    .Introduction .Introduction-title .title{
+        font-size: 27px;
+    }
+    .Introduction .Introduction-left{
+        margin-top: 26px;
+    }
+    .Introduction .Introduction-left .title{
+        font-size: 18px;
+    }
+    .Introduction .Introduction-left .content{
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 16px;
+        line-height: 23px;
+    }
+    .flowchart{
+        margin-top: 62px;
+        padding-bottom: 98px;
+    }
+    .flowchart .flowchart-bottom{
+        margin-top: 83px;
+    }
+
+    .Introduction-list{
+        margin-top: 65px;
+    }
+    .Introduction-list .item .item-img .icona{
+        width: 93px;
+        height: 93px;
+    }
+    .Introduction-list .item .item-img .iconb{
+        width: 67px;
+        height: 91px;
+    }
+    .Introduction-list .item .item-img .iconc{
+        width: 96px;
+        height: 94px;
+    }
+    .Introduction-list .item .item-img .title{
+        font-size: 18px;
+        margin-top: 26px;
+    }
+    .Introduction-list .item .item-content{
+        margin-top: 35px;
+    }
+    .Introduction-list .item .item-content .introduce-congtent{
+        font-size: 14px;
+    }
+    .backgroundmap{
+        margin-top: 65px;
+    }
+    .backgroundmap .position .backgroundmap-title{
+        font-size: 27px;
+    }
+    .backgroundmap .position .backgroundmap-content{
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 29px;
+    }
+}
+@media (max-width: 1366px) {
+    .viewdetails .title-box .title{
+        font-size: 13px;
+        height: 26px;
+        line-height: 26px;
+        width: 60px;
+    }
+    .viewdetails .title-box{
+        padding: 17px 0;
+        cursor: pointer;
+    }
+    .viewdetails .video .video-bj .watch{
+        left: 126px;
+    }
+    .viewdetails .video .video-bj .watch .watch-img{
+        width: 74px;
+        height: 74px;
+    }
+    .viewdetails .video .video-bj .watch .watch-title{
+        font-size: 13px;
+        margin-top: 14px;
+    }
+    .viewdetails .video .video-bj .xian{
+        height: 280px;
+        left: 322px;
+    }
+    .viewdetails .video .video-bj .right-content{
+        right: 105px;
+    }
+    .viewdetails .video .video-bj .right-content .right-content-title{
+        font-size: 21px;
+    }
+    .viewdetails .video .video-bj .right-content .content{
+        font-size: 13px;
+        margin-top: 71px;
+    }
+    .Introduction{
+        padding: 61px 0;
+    }
+    .Introduction .Introduction-title .title{
+        font-size: 25px;
+    }
+    .Introduction .Introduction-left{
+        margin-top: 24px;
+    }
+    .Introduction .Introduction-left .title{
+        font-size: 17px;
+    }
+    .Introduction .Introduction-left .content{
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+        line-height: 21px;
+    }
+    .flowchart{
+        margin-top: 58px;
+        padding-bottom: 92px;
+    }
+    .flowchart .flowchart-bottom{
+        margin-top: 78px;
+    }
+
+    .Introduction-list{
+        margin-top: 61px;
+    }
+    .Introduction-list .item .item-img .icona{
+        width: 88px;
+        height: 88px;
+    }
+    .Introduction-list .item .item-img .iconb{
+        width: 63px;
+        height: 85px;
+    }
+    .Introduction-list .item .item-img .iconc{
+        width: 91px;
+        height: 89px;
+    }
+    .Introduction-list .item .item-img .title{
+        font-size: 17px;
+        margin-top: 24px;
+    }
+    .Introduction-list .item .item-content{
+        margin-top: 32px;
+    }
+    .Introduction-list .item .item-content .introduce-congtent{
+        font-size: 13px;
+    }
+    .backgroundmap{
+        margin-top: 61px;
+    }
+    .backgroundmap .position .backgroundmap-title{
+        font-size: 25px;
+    }
+    .backgroundmap .position .backgroundmap-content{
+        font-size: 13px;
+    }
+}

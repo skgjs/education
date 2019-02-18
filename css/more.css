@@ -1,0 +1,175 @@
+.content-box{
+     border-top: 8px solid #f9f8f8;
+    padding-bottom: 30px;
+ }
+.smallroutine{
+    cursor: pointer;
+}
+.smallroutine .title-box{
+    padding: 24px 0;
+    cursor: pointer;
+}
+.smallroutine .title-box .title{
+    font-size: 18px;
+    color: #fff;
+    background: #0072bc;
+    height: 37px;
+    line-height: 37px;
+    width: 84px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 3px 5px;
+}
+.smallroutine .title-box .title span{
+    margin-left: 3px;
+}
+.smallroutine .list{
+    margin-bottom: 50px;
+}
+.smallroutine .list .left-img{
+    width: 35%;
+    margin-right: 48px;
+}
+.smallroutine .list .left-img img{
+    width: 100%;
+}
+.smallroutine .list .right-content{
+    width: 60%;
+}
+.smallroutine .list .right-content .weixin{
+    font-size: 36px;
+    color: #333;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.smallroutine .list .right-content .xcxu{
+    font-size: 30px;
+    color: #0072bc;
+    margin-top: 30px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.smallroutine .list .right-content .item{
+    margin-top: 20px;
+}
+.smallroutine .list .right-content .items{
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.smallroutine .list .right-content .see{
+    width: 275px;
+    height: 54px;
+    line-height: 54px;
+    background: #0072bc;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 65px;
+}
+@media (max-width:1440px){
+    .smallroutine .title-box .title{
+        font-size: 16px;
+        height: 32px;
+        line-height: 32px;
+        width: 74px;
+    }
+    .smallroutine .list{
+        margin-bottom: 44px;
+    }
+    .smallroutine .list .left-img{
+        margin-right: 42px;
+    }
+    .smallroutine .list .right-content .weixin{
+        font-size: 32px;
+    }
+    .smallroutine .list .right-content .xcxu{
+        font-size: 26px;
+        margin-top: 26px;
+    }
+    .smallroutine .list .right-content .item{
+        margin-top: 18px;
+    }
+    .smallroutine .list .right-content .items{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .smallroutine .list .right-content .see{
+        width: 240px;
+        height: 47px;
+        line-height: 47px;
+        font-size: 26px;
+        margin-top: 57px;
+    }
+}
+@media (max-width:1440px) {
+    .smallroutine .title-box .title{
+        font-size: 14px;
+        height: 28px;
+        line-height: 28px;
+        width: 63px;
+    }
+    .smallroutine .list{
+        margin-bottom: 38px;
+    }
+    .smallroutine .list .left-img{
+        margin-right: 36px;
+    }
+    .smallroutine .list .right-content .weixin{
+        font-size: 27px;
+    }
+    .smallroutine .list .right-content .xcxu{
+        font-size: 23px;
+        margin-top: 23px;
+    }
+    .smallroutine .list .right-content .item{
+        margin-top: 15px;
+    }
+    .smallroutine .list .right-content .items{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .smallroutine .list .right-content .see{
+        width: 206px;
+        height: 41px;
+        line-height: 41px;
+        font-size: 23px;
+        margin-top: 49px;
+    }
+}
+@media (max-width: 1366px) {
+    .smallroutine .title-box .title{
+        font-size: 13px;
+        height: 26px;
+        line-height: 26px;
+        width: 60px;
+    }
+    .smallroutine .list .right-content .weixin{
+        font-size: 25px;
+    }
+    .smallroutine .list .right-content .xcxu{
+        font-size: 21px;
+        margin-top: 21px;
+    }
+    .smallroutine .list .right-content .item{
+        margin-top: 14px;
+    }
+    .smallroutine .list .right-content .items{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .smallroutine .list .right-content .see{
+        width: 195px;
+        height: 38px;
+        line-height: 38px;
+        background: #0072bc;
+        font-size: 21px;
+        margin-top: 46px;
+    }
+}
